@@ -39,11 +39,11 @@ public class WithClass {
 	   driver = new FirefoxDriver();
 	   
 	  }
-	 
+	 /*
 	  @AfterClass
 	  public void afterClass() {
 	   driver.quit();
-	  }
+	  }*/
 
 	  
 }
