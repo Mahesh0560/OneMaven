@@ -51,11 +51,11 @@ public class WithClass {
 		   driver = new ChromeDriver();
 	}
 	  
-	  @AfterMethod
+	 /* @AfterMethod
 	  public void AfterMethod(){
 		 driver.quit(); 
-	  }
+	  }*/
 	 
-
+//dfsdfstgs v re regt gdtgrthrht 
 	  
 }
