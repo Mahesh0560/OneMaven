@@ -6,8 +6,6 @@
       <class name="OneOne.WithClass">
         <methods>
           <include name="openMyBlog"/>
-          <include name="beforeMethod"/>
-          <include name="AfterMethod"/>
         </methods>
       </class> <!-- OneOne.WithClass -->
     </classes>
