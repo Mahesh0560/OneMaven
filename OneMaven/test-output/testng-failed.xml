@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite name ]">
-  <test name="test Name(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="OneOne.WithClass">
         <methods>
           <include name="openMyBlog"/>
-          <include name="beforeMethod"/>
-          <include name="AfterMethod"/>
         </methods>
       </class> <!-- OneOne.WithClass -->
     </classes>
-  </test> <!-- test Name(failed) -->
-</suite> <!-- Failed suite [Suite name ] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

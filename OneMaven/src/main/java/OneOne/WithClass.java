@@ -18,14 +18,14 @@ public class WithClass {
 
 	
 
-	 public WebDriver driver;
+	// public WebDriver driver;
 	 
 	  //@Test(invocationCount=4)
-	 @Test
+	  @Test
 	  public void openMyBlog() {
 		 
 		 System.setProperty("webdriver.chrome.driver", "D:\\Selenium Jar new\\chromedriver.exe");
-		   driver = new ChromeDriver();
+		 WebDriver driver = new ChromeDriver();
 		   
 	 driver.get("https://www.softwaretestingmaterial.com/");
 	 driver.manage().window().maximize();
