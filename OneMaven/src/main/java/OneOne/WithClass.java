@@ -20,8 +20,13 @@ public class WithClass {
 
 	 public WebDriver driver;
 	 
-	  @Test(invocationCount=4)
+	  //@Test(invocationCount=4)
+	 @Test
 	  public void openMyBlog() {
+		 
+		 System.setProperty("webdriver.chrome.driver", "D:\\Selenium Jar new\\chromedriver.exe");
+		   driver = new ChromeDriver();
+		   
 	 driver.get("https://www.softwaretestingmaterial.com/");
 	 driver.manage().window().maximize();
 		WebElement mainTab = driver.findElement(By.xpath("//div/ul/li/a[@itemprop='url']/span[contains(text(),'Tutorials')]"));
@@ -42,7 +47,7 @@ public class WithClass {
 	  //This is first commit
 	  
 	  
-	  @BeforeMethod
+	 /* @BeforeMethod
 	  public void beforeMethod() {
 	   
 		System.out.println("Before method calling");
@@ -54,7 +59,7 @@ public class WithClass {
 	  @AfterMethod
 	  public void AfterMethod(){
 		 driver.close(); 
-	  }
+	  }*/
 	 
 //dfsdfstgs v re regt gdtgrthrht 
 	  //5gf55
